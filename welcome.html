@@ -1,0 +1,33 @@
+<HTML>
+    <head>
+        <title>kds</title>
+        <style>
+#slider{
+width:600px;
+height:300px;
+background-image:url(sobiyahome.jpg);
+background-size:100% 100%;
+-webkit-animation:slider 5s infinite;
+}
+@keyframes slider
+{
+0%{
+background-image:url(sobiyahome.jpg);
+}
+50%{
+background-image:url(sobiyahome.jpg);
+}
+100%{
+background-image:url(sobiyahome.jpg);
+}
+}
+
+#slider:hover{
+-webkit-animation-play-state:paused;
+}
+</style>
+</head>
+<body>
+    <div id=”slider”></div>
+</body>
+</HTML>
